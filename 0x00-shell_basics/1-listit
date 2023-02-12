@@ -1,4 +1,3 @@
 #!/bin/bash
-#Display content
 echo 'Applications Documents Dropbox Movies Pictures Desktop Downloads Library Music Public'
 
