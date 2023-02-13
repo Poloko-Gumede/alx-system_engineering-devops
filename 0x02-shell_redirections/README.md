@@ -1,2 +1,1 @@
-#!bin/bash
-Print Hello, World
+0.Hello World!
