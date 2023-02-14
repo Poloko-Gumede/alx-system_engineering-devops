@@ -1,3 +1,2 @@
 #!/bin/bash
-cat /etc/passwd /etc/hosts | less
-echo -e "\n"
+cat /etc/passwd /etc/hosts 
