@@ -1,2 +1,2 @@
 #!/bin/bash
-IFS=":" read -ra DIRS <<< "$PATH";echo ${#DIRS[@]}
+IFS=":";count=0;for dir in $PATH;do count=$((count+1));done;echo $count
