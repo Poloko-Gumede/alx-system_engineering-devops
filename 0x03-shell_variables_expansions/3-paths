@@ -1,2 +1,2 @@
 #!/bin/bash
-path=$(echo $PATH | tr ':' '\n' | wc -l); echo $(($path-1))
+echo $(echo $PATH | tr ':' '\n' | wc -l | awk '{print $1-1}')
